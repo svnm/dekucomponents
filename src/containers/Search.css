@@ -1,0 +1,10 @@
+.search {
+	min-height: 500px;
+}
+
+.search h1 {
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Helvetica;
+}

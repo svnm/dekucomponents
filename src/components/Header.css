@@ -1,0 +1,48 @@
+.header {
+  background-color: #fff;
+  padding-bottom: 50px;
+}
+
+.description {
+  padding-left: 4%;
+  padding-right: 4%;
+  font-size: 32px;
+}
+
+.description span{
+  color: #808080;
+  font-size: 32px;
+}
+
+.header a {
+  cursor: pointer;
+  transition: all .3s ease-in;
+  border-bottom: 2px solid transparent;
+}
+
+.header a:hover {
+  opacity: 1;
+  border-bottom: 2px solid #009688;
+}
+
+.dark {
+  color: #444;
+  background-color: #009688;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.light {
+  color: #009688;
+  background-color: #444;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.deku {
+  color: #009688;
+  text-transform: lowercase;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
