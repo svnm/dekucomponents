@@ -15,12 +15,8 @@
 .description {
   padding-left: 4%;
   padding-right: 4%;
-  font-size: 32px;
-}
-
-.description span{
+  font-size: 28px;
   color: #808080;
-  font-size: 32px;
 }
 
 .header a {

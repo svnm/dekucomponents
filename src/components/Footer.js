@@ -1,40 +1,54 @@
 import React, { Component, PropTypes } from 'react';
 import styles from './Footer.css';
+import CSSModules from 'react-css-modules'
 
-function Footer(props) {
+@CSSModules(styles, { allowMultiple: true })
+export default class Footer extends Component {
+  render () {
+    return (
+      <div styleName='footer'>
 
-  return (
-    <div className={styles.footer}>
+            <div styleName='group'>
+              <span>made with </span>
 
-          <div className={styles.group}>
-            <span>made with </span>
-
-            <span className={styles.icon}>
-              <i className='fa fa-1x fa-heart' />
-            </span>
-
-            <span> by </span>
-
-            <a target='_blank' 
-               className={styles.blue} 
-               href='http://www.isekivace.nz/'>
-              <span>isekivace.</span>
-              <span className={styles.blue}>nz</span>
-            </a>
-          </div>
-
-          <div className={styles.group}>
-            <a target='_blank' 
-               className={styles.yellow} 
-               href='https://github.com/StevenIseki/dekucomponents.com'>
-              <span className={styles.white}>
-                <i className='fa fa-1x fa-github' />
+              <span className='icon'>
+                <i className='fa fa-1x fa-heart' />
               </span>
-            </a>
-          </div>
-    </div>
-  )
+
+              <span> by </span>
+
+              <a target='_blank'
+                 styleName='yellow'
+                 href='http://vace.nz/'>
+                <span>vace.</span>
+                <span styleName='yellow'>nz</span>
+              </a>
+            </div>
+
+            <div styleName='group'>
+              <span>check out </span>
+              <a target='_blank'
+                 href='https://github.com/StevenIseki/css-module-npm-boilerplate'>
+                 css module npm boilerplate
+              </a>
+            </div>
+
+            <div styleName='group'>
+              <a target='_blank'
+                 styleName='green'
+                 href='https://github.com/StevenIseki/dekucomponents'>
+                <span styleName='white'>
+                  <i className='fa fa-1x fa-github' />
+                </span>
+              </a>
+            </div>
+      </div>
+    );
+  }
+
+  constructor (props, context) {
+    super(props, context);
+    this.state = {};
+  }
 
 }
-
-export default Footer

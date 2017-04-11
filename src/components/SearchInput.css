@@ -2,7 +2,7 @@
   color: #009688;
   display: inline-block;
   width: 100%;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .searchInput {
@@ -10,9 +10,9 @@
   float: left;
   width: 100%;
   padding: 1%;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .loader {
-  color: #009688;	
+  color: #009688;
 }
