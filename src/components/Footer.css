@@ -7,21 +7,22 @@
   font-size: 14px;
 }
 
-.yellow {
-  color: #d4fd02;
-}
 
 .white {
   color: #fff;
 }
 
 .green {
-  color: rgb(193, 225, 166);
+  color: #009688;
 }
 
 .group {
   padding-top: 3px;
   padding-bottom: 3px;
+}
+
+.group span {
+  color: #fff;
 }
 
 .footer a {
@@ -33,5 +34,5 @@
 
 .footer a:hover {
   opacity: 1;
-  border-bottom: 2px solid #d4fd02;
+  border-bottom: 2px solid #009688;
 }

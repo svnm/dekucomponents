@@ -18,10 +18,10 @@ export default class Footer extends Component {
               <span> by </span>
 
               <a target='_blank'
-                 styleName='yellow'
+                 styleName='white'
                  href='http://vace.nz/'>
-                <span>vace.</span>
-                <span styleName='yellow'>nz</span>
+                <span styleName='white'>vace.</span>
+                <span styleName='green'>nz</span>
               </a>
             </div>
 
